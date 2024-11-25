@@ -1,0 +1,61 @@
+@import './../../../styles.scss';
+
+nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  
+  padding: 4rem;
+  > img {
+    width: 4rem;
+    height: 4rem;
+    margin-right: auto;
+  }
+  > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    > a {
+      font-size: 21px;
+      padding: 0.6rem;
+     
+
+      &:hover {
+        color: $dark-red;
+      }
+    }
+  }
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.phone_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 10rem;
+  width: 100%;
+  padding: 0.5rem;
+  background-color: #9F0908;
+  border: 1px solid whitesmoke;
+  border-radius: 15px;
+  font-size: 1.5rem;
+  &:hover {
+    background-color: #cf0000;
+    cursor: pointer;
+  }
+
+  > img {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+}
